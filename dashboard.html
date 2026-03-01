@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TraceSafe Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <nav>
+    <h2>TraceSafe 💗</h2>
+    <a href="index.html">Home</a>
+    <a href="education.html">Education</a>
+    <a href="emergency.html">Emergency</a>
+  </nav>
+
+  <div class="container">
+    <h1>Dashboard - Analyze URLs</h1>
+    <p>Enter a link below to check for potential risks:</p>
+    <input type="text" id="urlInput" placeholder="Enter URL here">
+    <button onclick="analyzeURL()">Analyze</button>
+
+    <div id="riskResult" class="card"></div>
+  </div>
+</body>
+</html>
